@@ -26,7 +26,6 @@ function makeGrid(height, width) {
 
 // Changes cell's color according to the user's choice
 container.addEventListener("click", function (event) {
-    console.log(event);
     event.preventDefault();
     if (event.target && event.target.nodeName == "TD") {
         event.target.style.backgroundColor = color.value;
